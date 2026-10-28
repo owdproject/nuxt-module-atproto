@@ -4,13 +4,14 @@ import {
   createResolver,
   installModule,
 } from '@nuxt/kit'
-import { defineDesktopModule } from '@owdproject/core/kit/authoring'
+import type { NuxtModule } from '@nuxt/schema'
+import { defineDesktopModule } from 'nuxt-desktop/kit'
 import { getAtprotoDesktopOwner } from './runtime/utils/utilAtprotoDesktop'
 import { AtpAgent } from '@atproto/api'
 
 const { resolve } = createResolver(import.meta.url)
 
-export default defineDesktopModule({
+const module: NuxtModule<any> = defineDesktopModule({
   meta: {
     name: 'desktop-module-atproto',
     configKey: 'atprotoDesktop',
@@ -48,3 +49,5 @@ export default defineDesktopModule({
     })
   },
 })
+
+export default module
