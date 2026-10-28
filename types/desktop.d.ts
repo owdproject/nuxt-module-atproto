@@ -1,6 +1,6 @@
 import type { AppBskyActorDefs } from '@atproto/api'
 
-declare module '@owdproject/core/kit/authoring' {
+declare module '@owdproject/nuxt/kit/authoring' {
   interface DesktopConfig {
     atprotoDesktop?: AtprotoDesktopOptions
   }

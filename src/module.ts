@@ -5,7 +5,7 @@ import {
   installModule,
 } from '@nuxt/kit'
 import type { NuxtModule } from '@nuxt/schema'
-import { defineDesktopModule } from 'nuxt-desktop/kit'
+import { defineDesktopModule } from '@owdproject/nuxt/kit'
 import { getAtprotoDesktopOwner } from './runtime/utils/utilAtprotoDesktop'
 import { AtpAgent } from '@atproto/api'
 
