@@ -1,7 +1,7 @@
 import { defineDesktopConfig } from '@owdproject/nuxt'
 
 export default defineDesktopConfig({
-  theme: '@owdproject/theme-nova',
-  modules: ['@owdproject/nuxt-atproto'],
+  theme: '@owdproject/theme-nuxt-nova',
+  modules: ['@owdproject/module-nuxt-atproto'],
   apps: [],
 })

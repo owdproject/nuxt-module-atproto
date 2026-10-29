@@ -1,5 +1,5 @@
 {
-  "name": "@owdproject/nuxt-atproto",
+  "name": "@owdproject/module-nuxt-atproto",
   "version": "4.0.0-alpha.3",
   "keywords": [
     "owd-client",
